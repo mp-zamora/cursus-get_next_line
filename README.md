@@ -7,4 +7,4 @@ Moreover, we had some restrictions which made this project even more interesting
 ## About my approach
 I decided to follow the 'lists' approach. This means that every fd to be read was stored as a node of a linked list. Other information, such as the actual buffer with the content read from the file, or the amount of bytes read is stored as well in the node.
 
-This approach is certainly less efficient as others used out there, like having a 'map' of fds, with their respective buffers. However, I like to face these challenges in my own ways and do not usually like to follow strategies that I already know. In addition, I wanted to master linked lists before starting the next project: psuh_swap.
+This approach is certainly less efficient as others used out there, like having a 'map' of fds, with their respective buffers. However, I like to face these challenges in my own ways and do not usually like to follow strategies that I already know. In addition, I wanted to master linked lists before starting the next project: push_swap.
